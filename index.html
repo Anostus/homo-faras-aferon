@@ -1,0 +1,214 @@
+<!DOCTYPE html><html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<title>Homo Faras Aferon</title>
+<script type="text/javascript">
+//BEGIN DATA
+var i = 0;
+var path = new Array();
+
+var vor1 = [
+"Preĝi", "Aŭkcio", "Sonĝo", "Estro", "Lito", "Histriko", "Akcidento",
+"Vesperto", "Lanco", "Laboratorio", "Glazuro", "Kazino", "Horloĝo",
+"Labirinto", "Ambulanco", "Registri", "Revo", "Sango", "Pano",
+"Ŝargi", "Rubando", "Alarmilo", "Oazo", "Kapuĉo", "Kontrakto",
+"Sapo", "Glaciaĵo", "Poŝtkarto", "Kulo", "Vino", "Limako", "Skani",
+"Hoko", "Buŝtuko", "Adopti", "Balbuti", "Apoteko", "Stampo",
+"Bienisto", "Plasto", "Kakto", "Bildrakonto (Komikso)", "Malfortika",
+"Marvirino", "Cirko", "Proponi", "Sonorilo", "Diveni", "Danci",
+"Hotelo", "Noto", "Permesilo", "Veziko", "Bati", "Hejmsopiro",
+"Lasero", "Aŭtobuso", "Ŝelo", "Ekvatoro", "Kaĝo", "Dormi", "Spino",
+"Krono", "Tertremo", "Polico", "Subaĉeti", "Perlo", "Duelo",
+"Animo", "Ringo", "Unurada Biciklo (Unuciklo)", "Pato", "Templo",
+"Turisto", "Rulŝtuparo", "Vendejo", "Glubendo", "Rotacii", "Insekto",
+"Butono", "Ŝiri", "Skribotablo", "Poŝto", "Truo", "Feo", "Rimo",
+"Flegistino", "Klubo", "Domeno", "Diamanto", "Vento", "Lumturo",
+"Veti", "Doktoro", "Kokono", "Filtrilo", "Akno", "Botelo", "Roboto",
+"Fotilo", "Arbaro", "Dronigi", "Polvosuĉilo", "Konversacio", "Naskiĝtago",
+"Ŝnuro", "Banko", "Masko", "Piedpilko (Futbalo)", "Buĝeto", "Ekrano",
+"Rampi", "Singulti", "Hajlo", "Testudo", "Aplaŭdi", "Palpebrumi",
+"Paraŝuto", "Marbordo (Strando)", "Fandiĝi", "Pupo", "Salato",
+"Ĵetkubo", "Bankostumo", "Mamzono", "Ĵurnalisto", "Lavmaŝino",
+"Ĉevalhomo (Centaŭro)", "Kruĉeto", "Radaro", "Ŝipo", "Elŝuti",
+"Skorpio", "Ponto", "Maristo", "Ĉeno", "Fingro", "Monaĥino",
+"Kampo", "Juko", "Kandelo", "Salajro", "Rompita", "Liveri",
+"Fenikso", "Kompaso", "Razilo", "Arĥitekturo", "Eskapi", "Soldato",
+"Hipnotigi", "Juvelo", "Kurteno", "Subtrahi", "Kuraĝa", "Ruĝiĝi",
+"Eĥo", "Glavo", "Pilaro (Baterio)", "Esplori", "Dorsosako",
+"Anĝelo", "Biskvito", "Sorĉi", "Mikroonda Forno", "Tusi",
+"Superheroo", "Invadi", "Akvario", "Submarŝipo", "Rifo",
+"Uragano", "Ĵongli", "Emeritiĝi", "Felo", "Drako", "Sablohorloĝo",
+"Vosto", "Murmuregi", "Rukti", "Mielmonato"
+];
+    
+var vor2 = [
+"Okulvitroj ('Homo ne vidas, sed homo volas vidi. Homo uzas *aferon*, kaj homo bone vidas!')",
+"Saŭno ('Multe da homoj iras al varma *loko*. Homoj sentas sin varmaj. Poste, homoj sentas sin bonaj.')",
+"Malsanulejo ('Homo sentas sin malbona, homo iras al *loko*. Loko igas homon bona.')",
+"Fantomo ('Antaŭe: Homo. Poste: ne homo, sed home simila *afero*. Homoj vidas home similan aferon, kaj sentas sin malbonaj.')",
+"Poŝtelefono ('Homo kaj homo volas diri aferon, sed homo kaj homo en malsama loko. Homo kaj homo uzas *aferon* diri aferon!')",
+"Populara ('Multaj, multaj homoj ŝatas homon. Multaj, multaj homoj diras, 'homo bona homo!'')",
+];
+//END DATA
+
+function generiVorton() {
+    document.getElementById('vor1').innerHTML = getRand(vor1);
+    document.getElementById('vor2').innerHTML = getRand(vor2);
+};
+
+function getRand(inArray) {
+    return inArray[Math.round(Math.random() * (inArray.length - 1))]
+}
+
+function setElem(inID, inArray) {
+	if (document.getElementById(inID).innerHTML != null) {
+	    document.getElementById(inID).innerHTML = getRand(inArray);
+	}
+}
+
+onload = function() { generiVorton(); }
+
+</script>
+<link rel="canonical" href="https://dmtools.tumblr.com" /></head>
+<body>
+
+<div style="height:30px;width:100%">
+<button onclick="generiVorton()">Ricevi Novan Vorton</button>
+</div>
+
+<table>
+<tr>
+<td>
+<h2>Homo Faras Aferon</h2>
+
+
+<p><b>Permisitaj Vortoj</b></p>
+    
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-44mm{color:#1A1A1B;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:normal">Homo</span></th>
+    <th class="tg-0lax"><span style="font-weight:normal">Pensi</span></th>
+    <th class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Simila</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Loko</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Uzi</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Antaŭ (ol)</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Afero</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Voli</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Post (kiam)</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Fari</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Granda</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Kaj</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Manĝi</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Proksima</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Sed</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Senti (sin)</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Rapida</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">En</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Akiri</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Bona</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Sur</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Iri (al)</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Varma</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Kun</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Havi</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal">Mola</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Pli</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ŝati</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Multe (da)</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Jes</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Diri</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Alia</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ne</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Vidi</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Reala</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ĉu</span></td>
+  </tr>
+  <tr>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Igi</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Sama</span></td>
+    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Denove</span></td>
+  </tr>
+</tbody>
+</table>
+</td>
+
+<td style="vertical-align:top">
+<p style="color:green;"><b>Celita Vorto:</b> <a id="vor1"></a></p>
+<p style="color:blue;"><b>Facila Vorto:</b> <a id="vor2"></a></p>    
+
+<p><b>Permesitaj Finaĵoj kaj Afiksoj</b></p>    
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-7zrl{text-align:left;vertical-align:bottom}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-7zrl">i</th>
+    <th class="tg-7zrl">o</th>
+    <th class="tg-7zrl">j</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-7zrl">is</td>
+    <td class="tg-7zrl">a</td>
+    <td class="tg-7zrl">n</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">as</td>
+    <td class="tg-7zrl">e</td>
+    <td class="tg-7zrl">mal-</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">os</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+</tbody>
+</table>
+
+</tr>
+</table>
+
+</body>
+
+</html>
