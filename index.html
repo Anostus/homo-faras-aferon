@@ -52,7 +52,10 @@ var vor2 = [
 
 function generiVorton() {
     document.getElementById('vor1').innerHTML = getRand(vor1);
-    document.getElementById('vor2').innerHTML = getRand(vor2);
+};
+
+function generiFacilanVorton() {
+    document.getElementById('vor1').innerHTML = getRand(vor2);
 };
 
 function getRand(inArray) {
@@ -73,15 +76,15 @@ onload = function() { generiVorton(); }
 
 <div style="height:30px;width:100%">
 <button onclick="generiVorton()">Ricevi Novan Vorton</button>
+<button onclick="generiFacilanVorton()">Ricevi Facilan Vorton</button>
 </div>
 
-<table>
-<tr>
-<td>
 <h2>Homo Faras Aferon</h2>
 
+<p style="color:green;"><b>Celita Vorto:</b> <a id="vor1"></a></p>
 
-<p><b>Permisitaj Vortoj</b></p>
+
+<p><b>Permisitaj Radikoj</b></p>
     
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -89,132 +92,100 @@ onload = function() { generiVorton(); }
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-44mm{color:#1A1A1B;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fij1{border-color:inherit;color:#1A1A1B;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"><span style="font-weight:normal">Hom/o</span></th>
-    <th class="tg-0lax"><span style="font-weight:normal">Pens/i</span></th>
-    <th class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Simil/a (al)</span></th>
+    <th class="tg-0pky"><span style="font-weight:normal">Hom/o</span></th>
+    <th class="tg-0pky"><span style="font-weight:normal">Pens/i</span></th>
+    <th class="tg-fij1">Sam/a (kiel)</th>
+    <th class="tg-0pky">-i</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Lok/o</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Uz/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Antaŭ (ol)</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Lok/o</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Uz/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Simil/a (al)</span></td>
+    <td class="tg-0pky">-is</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Afer/o</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Vol/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Post (kiam)</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Afer/o</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Vol/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Antaŭ (ol)</span></td>
+    <td class="tg-0pky">-as</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Far/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Grand/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Kaj</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Far/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Est/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Post (kiam)</span></td>
+    <td class="tg-0pky">-os</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Manĝ/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Proksim/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Sed</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Manĝ/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Grand/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Kaj</span></td>
+    <td class="tg-0pky">-o</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Sent/i (sin)</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Rapid/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">En</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Sent/i (sin)</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Proksim/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Sed</span></td>
+    <td class="tg-0pky">-a</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Akir/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Bon/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Sur</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Akir/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Rapid/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">En</span></td>
+    <td class="tg-0pky">-e</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ir/i (al)</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Varm/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Kun</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Ir/i (al)</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Bon/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Sur</span></td>
+    <td class="tg-0pky">-j</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Hav/i</span></td>
-    <td class="tg-0lax"><span style="font-weight:normal">Mol/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Pli</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Hav/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Varm/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Kun</span></td>
+    <td class="tg-0pky">-n</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ŝat/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Mult/e (da)</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Jes</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Ŝat/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal">Mol/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Pli</span></td>
+    <td class="tg-0pky">mal-</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Dir/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ali/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ne</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Dir/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Mult/e (da)</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Jes</span></td>
+    <td class="tg-0pky">re-</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Vid/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Real/a</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Ĉu</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Vid/i</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Ali/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Ne</span></td>
+    <td class="tg-0pky">-ig-</td>
   </tr>
   <tr>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Est/i</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Sam/a (kiel)</span></td>
-    <td class="tg-44mm"><span style="font-weight:normal;color:#1A1A1B">Denove</span></td>
-  </tr>
-</tbody>
-</table>
-</td>
-
-<td style="vertical-align:top">
-<p style="color:green;"><b>Celita Vorto:</b> <a id="vor1"></a></p>
-<p style="color:blue;"><b>Facila Vorto:</b> <a id="vor2"></a></p>    
-
-<p><b>Permesitaj Finaĵoj kaj Afiksoj</b></p>    
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-7zrl{text-align:left;vertical-align:bottom}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-7zrl">-i</th>
-    <th class="tg-7zrl">-o</th>
-    <th class="tg-7zrl">-j</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-7zrl">-is</td>
-    <td class="tg-7zrl">-a</td>
-    <td class="tg-7zrl">-n</td>
-  </tr>
-  <tr>
-    <td class="tg-7zrl">-as</td>
-    <td class="tg-7zrl">-e</td>
-    <td class="tg-7zrl">mal-</td>
-  </tr>
-  <tr>
-    <td class="tg-7zrl">-os</td>
-    <td class="tg-7zrl"></td>
-    <td class="tg-7zrl">-ig-</td>
+    <td class="tg-fij1">Aŭd/i</td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Real/a</span></td>
+    <td class="tg-fij1"><span style="font-weight:normal;color:#1A1A1B">Ĉu</span></td>
+    <td class="tg-0pky"></td>
   </tr>
 </tbody>
 </table>
 
-<p>Reguloj:</p>
+<p><b>Reguloj:</b></p>
 
 <p>1. Unu ludanto scias la celitan vorton, kaj responas al demandoj pri la vorto. La aliaj ludantoj demandas pri la celita vorto.</p>
 <p>2. Ĉiuj ludantoj nur povas uzi la permesitajn vortojn, kaj ties kunmetaĵojn.</p>
 
 <p>Por pli facile ludi, ĉiu homo havu la vortliston antaŭ si. Nur la respondanta ludanto devas prizorgi pri la sekcio "Celita Vorto" (aŭ "Facila Vorto" se temas pri novaj ludantoj, kiuj volas ludi pli bazan ludon.)</p>
-
-</tr>
-</table>
 
 </body>
 
